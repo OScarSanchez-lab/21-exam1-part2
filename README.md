@@ -2,6 +2,9 @@
 
 > [!IMPORTANT]
 > Es imprescindible aprobar la parte 1 para que esta parte 2 sea evaluada.
+>
+> Se permite IA como apoyo, pero el alumno debe comprender y poder modificar su código.
+> Entregas con patrones de copia o sin autoría demostrable podrán ser invalidadas.
 
 Haz una página web usando **todas** las buenas prácticas que conozcas que muestre lo siguiente **DEJANDO EL FONDO EN BLANCO**:
 
