@@ -2,33 +2,108 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TripPlanner+</title>
-  <!--fuentes de iconos y fuentes de texto -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripPlanner+</title>
+    <!--fuentes de iconos y fuentes de texto -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header class="navbar">
         <div class="container nav-content">
-        <div class="logo">TripPlanner<span>+</span></div>
-        <nav class="nav-links">
-            <a href="#" class="active">Home</a>
-            <a href="#">My Trips</a>
-            <a href="#">Weather</a>
-            <a href="#">Currency</a>
-            <a href="#">AI Suggestions</a>
-            <a href="#">About Us</a>
-        </nav>
-        <button class="btn-get-started">Get Started</button>
-        <i class="fas fa-bars mobile-menu"></i>
+            <div class="logo">TripPlanner<span>+</span></div>
+            <nav class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">My Trips</a>
+                <a href="#">Weather</a>
+                <a href="#">Currency</a>
+                <a href="#">AI Suggestions</a>
+                <a href="#">About Us</a>
+            </nav>
+            <button class="btn-get-started">Get Started</button>
+            <i class="fas fa-bars mobile-menu"></i>
         </div>
     </header>
-    <main>
-        
+
+    <main class="intro container">
+
+        <!-- Texto principal -->
+        <section class="intro-content">
+            <span class="badge">Explore the World with Us</span>
+
+            <h1>
+                Travel, Enjoy and Live a New <span>Full Life</span>
+            </h1>
+
+            <p>
+                Plan your perfect trip with our intelligent travel platform.
+                Create itineraries, check weather forecasts, and get AI-powered
+                suggestions for unforgettable adventures.
+            </p>
+
+            <div class="intro-actions">
+                <button class="btn-primary">Start Planning →</button>
+                <button class="btn-outline">Get AI Suggestions</button>
+            </div>
+
+            <section class="stats">
+                <article class="stat-item">
+                    <strong>500<span>+</span></strong>
+                    <p>Destinations</p>
+                </article>
+
+                <article class="stat-item">
+                    <strong>100<span>%</span></strong>
+                    <p>Privacy</p>
+                </article>
+
+                <article class="stat-item">
+                    <strong>24<span>/7</span></strong>
+                    <p>AI Support</p>
+                </article>
+            </section>
+        </section>
+
+        <!-- Imágenes -->
+        <section class="intro-media">
+
+            <article class="img-card card-tall">
+                <figure>
+                    <img src="assets/photo-eiffel-tower.jpeg" alt="Eiffel Tower">
+                    <figcaption class="floating-weather">
+                        <i class="fas fa-sun"></i>
+                        <div>
+                            <strong>28°C</strong>
+                            <p>Bali, Indonesia</p>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <article class="img-card card-main">
+                <figure>
+                    <img src="assets/photo-beach2.jpeg" alt="Beach in Paris">
+                    <figcaption class="floating-destination">
+                        <img src="assets/photo-bridge.jpeg" alt="Paris icon" class="dest-icon">
+                        <div class="dest-info">
+                            <strong>Paris, France</strong>
+                            <p>2,500 activities</p>
+                            <span class="rating">4.9</span>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-card card-bottom">
+                <figure>
+                    <img src="assets/photo-beach1.jpeg" alt="Tropical coast">
+                </figure>
+            </article>
+        </section>
     </main>
 </body>
+</html>
