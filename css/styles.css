@@ -75,3 +75,23 @@ body {
 .nav-links a:hover::after {
     width: 100%;
 }
+.btn-get-started {
+    background: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.btn-get-started:hover {
+    transform: scale(1.05);
+}
+
+.mobile-menu {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
